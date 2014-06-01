@@ -5,6 +5,8 @@ highlighter:      pygments
 # Permalinks
 permalink:        pretty
 
+baseurl:		  /POCS
+
 # Setup
 title:            POCS
 tagline:          'Panoptes Observatory Control System'
