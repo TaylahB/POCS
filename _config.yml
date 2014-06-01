@@ -15,7 +15,11 @@ author:
   name:           'Project Panoptes'
   url:            https://www.projectpanoptes.org
 
-paginate:         5
+relative_permalinks: true
+
+permalink:     date
+paginate_path: 'page:num'
+paginate:      nil
 
 # Custom vars
 version:          0.1.1
