@@ -8,7 +8,7 @@ permalink:        pretty
 # Setup
 title:            POCS
 tagline:          'Panoptes Observatory Control System'
-description:      'Main system to control Panoptes unit.'
+description:      'Panoptes Observatory Control System'
 url:              http://http://panoptes.github.io/POCS/
 
 author:
