@@ -7,7 +7,9 @@ title: Hello World
 
 This is a test. I would like code and MathJax working.
 
-~~~ python
+Can't get syntax highlighting to work
+
+~~~ python3
 import panoptes.utils.logger as logger
 
 @logger.has_logger
@@ -23,4 +25,4 @@ $$ z = \frac{\lambda_{obs} - \lambda_{em}}{\lambda_{em}} $$
 
 is done with `$$ ... $$`
 
-Interesting.
+Interesting. And ideally not orange.
