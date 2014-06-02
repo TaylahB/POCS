@@ -20,6 +20,14 @@ class FooBar():
 ```
 
 
+~~~
+import stuff
+~~~
+
+{% highlight python }
+import otherstuff
+{% endhighlight }
+
 Inline math \\( z = 1.4^2 \\) is done with `\\( ... \\)` while a math block:
 
 $$ z = \frac{\lambda_{obs} - \lambda_{em}}{\lambda_{em}} $$
