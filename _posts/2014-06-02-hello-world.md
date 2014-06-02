@@ -17,8 +17,10 @@ class FooBar():
     self.logger.info('Inside Class')
 ~~~
 
-The equation for inline math \\( z = 1.4^2 \\) is working if you use `\\( ... \\)`.
+Inline math \\( z = 1.4^2 \\) is done with `\\( ... \\)` while a math block:
 
-\[ z = \frac{\lambda_{obs} - \lambda_{em}}{\lambda_{em}} \]
+$$ z = \frac{\lambda_{obs} - \lambda_{em}}{\lambda_{em}} $$
+
+is done with `$$ ... $$`
 
 Interesting.
