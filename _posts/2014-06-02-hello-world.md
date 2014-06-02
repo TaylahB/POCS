@@ -1,3 +1,8 @@
+---
+layout: post
+title: Hello World
+---
+
 # Hello World
 
 This is a test. I would like code and MathJax working.
