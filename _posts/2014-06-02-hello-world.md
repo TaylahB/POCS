@@ -15,6 +15,8 @@ Code is done with the following syntax:
 `code goes here`  
 `{ % endhighlight % }`  
 
+  Note: Don't put the space between the `{` and the `%`
+
 {% highlight python linenos %}
 import panoptes.utils.logger as logger
 
