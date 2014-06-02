@@ -12,9 +12,9 @@ This is a test. I would like code and MathJax working.
 Code is done with the following syntax:
 
 <code>
-{&37; highlight python linenos \%}
+{% highlight python linenos %}
 code goes here`  
-{\% endhighlight \%}
+{% endhighlight %}
 </code>
 
 {% highlight python linenos %}
