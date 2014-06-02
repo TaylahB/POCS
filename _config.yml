@@ -3,7 +3,7 @@
 #markdown_ext:     markdown,mkdown,mkdn,mkd,md
 #textile_ext:      textile
 #highlighter:      rogue
-markdown:       redcarpet
+markdown:         redcarpet
 highlighter:      pygments
 
 # Permalinks
