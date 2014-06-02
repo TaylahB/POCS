@@ -1,10 +1,10 @@
 # Dependencies
-markdown:         kramdown
-markdown_ext:     markdown,mkdown,mkdn,mkd,md
-textile_ext:      textile
-highlighter:      rogue
-# markdown:       redcarpet
-#highlighter:      pygments
+#markdown:         kramdown
+#markdown_ext:     markdown,mkdown,mkdn,mkd,md
+#textile_ext:      textile
+#highlighter:      rogue
+markdown:       redcarpet
+highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
