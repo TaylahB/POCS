@@ -24,9 +24,9 @@ class FooBar():
 import stuff
 ~~~
 
-{% highlight python }
+{% highlight python %}
 import otherstuff
-{% endhighlight }
+{% endhighlight %}
 
 Inline math \\( z = 1.4^2 \\) is done with `\\( ... \\)` while a math block:
 
