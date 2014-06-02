@@ -17,8 +17,8 @@ class FooBar():
     self.logger.info('Inside Class')
 ~~~
 
-The equation for inline math \[ z = 1.4^2 \] is working if you use \ ( and \ ).
+The equation for inline math \( z = 1.4^2 \) is working if you use `\( ... \)`.
 
-$$ z = \frac{\lambda_{obs} - \lambda_{em}}{\lambda_{em}} $$
+\[ z = \frac{\lambda_{obs} - \lambda_{em}}{\lambda_{em}} \]
 
 Interesting.
