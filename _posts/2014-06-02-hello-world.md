@@ -7,7 +7,13 @@ title: Hello World
 
 This is a test. I would like code and MathJax working.
 
-Can't get syntax highlighting to work. Code is currently done with `~~~`
+### Code
+
+Code is done with the following syntax:
+
+`{% highlight python linenos %}`
+`Super code goes here`
+`{% endhighlight %}`
 
 {% highlight python linenos %}
 import panoptes.utils.logger as logger
@@ -18,6 +24,9 @@ class FooBar():
   def __init__(self):
     self.logger.info('Inside Class')
 {% endhighlight %}
+
+
+### Latex Math
 
 Inline math \\( z = 1.4^2 \\) is done with `\\( ... \\)` while a math block:
 
