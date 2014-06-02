@@ -7,7 +7,7 @@ title: Hello World
 
 This is a test. I would like code and MathJax working.
 
-Can't get syntax highlighting to work
+Can't get syntax highlighting to work. Code is currently done with `~~~`
 
 ~~~ python3
 import panoptes.utils.logger as logger
@@ -18,16 +18,6 @@ class FooBar():
   def __init__(self):
     self.logger.info('Inside Class')
 ~~~
-
-{% highlight python3 %}
-import panoptes.utils.logger as logger
-
-@logger.has_logger
-class FooBar():
-  """ This class is FooBar! """
-  def __init__(self):
-    self.logger.info('Inside Class')
-{% endhighlight %}
 
 
 Inline math \\( z = 1.4^2 \\) is done with `\\( ... \\)` while a math block:
