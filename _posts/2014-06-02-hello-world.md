@@ -19,6 +19,17 @@ class FooBar():
     self.logger.info('Inside Class')
 ~~~
 
+``` python3
+import panoptes.utils.logger as logger
+
+@logger.has_logger
+class FooBar():
+  """ This class is FooBar! """
+  def __init__(self):
+    self.logger.info('Inside Class')
+```
+
+
 Inline math \\( z = 1.4^2 \\) is done with `\\( ... \\)` while a math block:
 
 $$ z = \frac{\lambda_{obs} - \lambda_{em}}{\lambda_{em}} $$
