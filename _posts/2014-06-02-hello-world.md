@@ -13,7 +13,9 @@ Code is done with the following syntax:
 
 ```
 { % highlight python linenos % }  
+
 code goes here  
+
 { % endhighlight % }  
 ```
 
