@@ -2,9 +2,9 @@
 markdown:         kramdown
 #markdown_ext:     markdown,mkdown,mkdn,mkd,md
 #textile_ext:      textile
-highlighter:      rogue
+#highlighter:      rogue
 #markdown:         redcarpet
-#highlighter:      pygments
+highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
