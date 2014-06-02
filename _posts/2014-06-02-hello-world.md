@@ -9,7 +9,7 @@ This is a test. I would like code and MathJax working.
 
 Can't get syntax highlighting to work
 
-~~~ python3 linenos  
+~~~ python3
 import panoptes.utils.logger as logger
 
 @logger.has_logger
