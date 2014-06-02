@@ -11,11 +11,11 @@ This is a test. I would like code and MathJax working.
 
 Code is done with the following syntax:
 
-<pre>
+<code>
 {&37; highlight python linenos \%}
 code goes here`  
 {\% endhighlight \%}
-</pre>
+</code>
 
 {% highlight python linenos %}
 import panoptes.utils.logger as logger
