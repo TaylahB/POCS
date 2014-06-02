@@ -2,8 +2,7 @@
 
 This is a test of the StackEdit system. Next, I shall attempt to post this to our Panoptes site. First, let's make things a little complicated.
 
-``` python
-
+```
 import panoptes.utils.logger as logger
 
 @logger.has_logger
@@ -11,7 +10,6 @@ class FooBar():
 	""" This class is FooBar! """
 	def __init__(self):
 		self.logger.info('FooBar!')
-
 ```
 
 #### Redshift Equation
