@@ -7,7 +7,7 @@ title: Hello World
 
 This is a test. I would like code and MathJax working.
 
-~~~
+~~~ python
 import panoptes.utils.logger as logger
 
 @logger.has_logger
@@ -17,7 +17,7 @@ class FooBar():
     self.logger.info('Inside Class')
 ~~~
 
-The equation for inline math ($z = 1.4$) is working.
+The equation for inline math ( $ z = 1.4 $ ) is [not] working.
 
 $$ z = \frac{\lambda_{obs} - \lambda_{em}}{\lambda_{em}} $$
 
