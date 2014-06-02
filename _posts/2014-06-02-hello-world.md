@@ -13,7 +13,7 @@ Code is done with the following syntax:
 
 `{ % highlight python linenos % }`
 `code goes here`
-`{ % endhighlight % }`
+
 
 { % highlight python linenos % }
 import panoptes.utils.logger as logger
