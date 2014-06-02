@@ -1,7 +1,7 @@
 # Dependencies
 markdown:         kramdown
-#markdown_ext:     markdown,mkdown,mkdn,mkd,md
-#textile_ext:      textile
+markdown_ext:     markdown,mkdown,mkdn,mkd,md
+textile_ext:      textile
 #highlighter:      rogue
 #markdown:         redcarpet
 highlighter:      pygments
