@@ -1,12 +1,14 @@
 # Dependencies
 markdown:         kramdown
+markdown_ext:     markdown,mkdown,mkdn,mkd,md
+textile_ext:      textile
 # markdown:       redcarper
 highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
 
-baseurl:		  /POCS
+baseurl:          /POCS
 
 # Setup
 title:            POCS
