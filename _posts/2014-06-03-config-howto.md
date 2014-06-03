@@ -20,9 +20,7 @@ mount</span><span class="pun">:</span><span class="pln">
 log_dir</span><span class="pun">:</span><span class="pln"> </span><span class="str">'/var/log/Panoptes/'</span><span class="pln">
 log_file</span><span class="pun">:</span><span class="pln"> panoptes</span><span class="pun">.</span><span class="pln">log</span></code></pre>
 
-<p>Pretty simple. There shouldn’t be anything surprising in there. The YAML ‘document’ begins with the <code>---</code> and everything above is meta-data about the file while that below is what you will have access to.  String can be wrapped in quotes but don’t need to be.</p>
-
-
+<p>Pretty simple. There shouldn’t be anything surprising in there. The YAML ‘document’ begins with the <code>---</code> and everything above is meta-data about the file while that below is what you will have access to.  Strings can be wrapped in quotes but don’t need to be.</p>
 
 <h3 id="usage">Usage</h3>
 
@@ -56,6 +54,28 @@ log_file</span><span class="pun">:</span><span class="pln"> panoptes</span><span
 
 <hr>
 
+
+
+<h3 id="config-files">Config Files</h3>
+
+<p>There are two configuration files for the project that reside in the project’s root directory. </p>
+
+<dl>
+<dt><code>config.yaml</code></dt>
+<dd>The global configuration file. This file is contained within the repository and contains the default global settings. 
+
+<blockquote>
+  <strong>Note:</strong> This file should not be edited
+</blockquote></dd>
+
+<dt><code>config_local.yaml</code></dt>
+<dd>The local configuration file. This file supercedes the the entries in the main config file, so if you want to replace or add configuration items, do it in this file. 
+
+<blockquote>
+  <strong>Note:</strong> This file does not exist in the repository so it is up to the user to create
+</blockquote></dd>
+</dl>
+
 <h3 id="config-structure-yaml">Config Structure: YAML</h3>
 
 <p>The config files are done in <a href="http://www.yaml.org/">YAML</a>, which is a standard way to serialize objects.<a href="#fn:json" id="fnref:json" title="See footnote" class="footnote">1</a>  Basically, this allows for turning data structures (lists, arrays, dicts, scalars) into a string and saving them to a file and then later reading that file back in and automatically having the data structures available to you. The nice thing is that it is so standard that you can use any language/platform to read/write YAML files, so it is essentially a way to save and move data bewteen programs.</p>
@@ -87,31 +107,7 @@ config </span><span class="pun">=</span><span class="pln"> dict</span><span clas
     local_items </span><span class="pun">=</span><span class="pln"> yaml</span><span class="pun">.</span><span class="pln">load</span><span class="pun">(</span><span class="pln">f</span><span class="pun">.</span><span class="pln">read</span><span class="pun">())</span><span class="pln">
     config</span><span class="pun">.</span><span class="pln">update</span><span class="pun">(</span><span class="pln">local_items</span><span class="pun">)</span></code></pre>
 
-<p>You can see that it’s pretty simple. <code>yaml.load</code> and <code>yaml.dump</code> are the work-horses of PyYAML. Check the <a href="http://pyyaml.org/wiki/PyYAMLDocumentation">docs</a> for details. Pythons</p>
-
-
-
-<h3 id="config-files">Config Files</h3>
-
-<p>There are two configuration files for the project that reside in the project’s root directory. </p>
-
-<dl>
-<dt><code>config.yaml</code></dt>
-<dd>The global configuration file. This file is contained within the repository and contains the default global settings. 
-
-<blockquote>
-  <strong>Note:</strong> This file should not be edited
-</blockquote></dd>
-
-<dt><code>config_local.yaml</code></dt>
-<dd>The local configuration file. This file supercedes the the entries in the main config file, so if you want to replace or add configuration items, do it in this file. 
-
-<blockquote>
-  <strong>Note:</strong> This file does not exist in the repository so it is up to the user to create
-</blockquote></dd>
-</dl>
-
-
+<p>You can see that it’s pretty simple. <code>yaml.load</code> and <code>yaml.dump</code> are the work-horses of PyYAML. Check the <a href="http://pyyaml.org/wiki/PyYAMLDocumentation">docs</a> for details.</p>
 
 <h3 id="dict-methods">Python dict() methods</h3>
 
