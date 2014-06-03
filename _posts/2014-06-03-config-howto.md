@@ -131,7 +131,5 @@ config </span><span class="pun">=</span><span class="pln"> dict</span><span clas
 <hr>
 
 <blockquote>
-  <p>Written by @wtgee</p>
-</blockquote>
-
-<div class="footnotes"><hr><ol><li id="fn:json"><a href="http://www.json.org/">JSON</a> is similar and just as pervasive. Because YAML tends to be more human-readable (in addition to machine-readable), it is often used for things like config files. Because JSON tends to be more efficient (whitespace/size), it tends to be more used between machines. Most web data is exchanged via JSON these days. <a href="#fnref:json" title="Return to article" class="reversefootnote">↩</a></li></ol></div>
+  <p>Written by <a href="https://github.com/wtgee">@wtgee</a></p>
+</blockquote><div class="footnotes"><hr><ol><li id="fn:json"><a href="http://www.json.org/">JSON</a> is similar and just as pervasive. Because YAML tends to be more human-readable (in addition to machine-readable), it is often used for things like config files. Because JSON tends to be more efficient (whitespace/size), it tends to be more used between machines. Most web data is exchanged via JSON these days. <a href="#fnref:json" title="Return to article" class="reversefootnote">↩</a></li></ol></div>
