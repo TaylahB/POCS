@@ -84,7 +84,9 @@
 <pre class="prettyprint"><code class="language-python3 hljs python"><span class="hljs-keyword">from</span> panoptes.state <span class="hljs-keyword">import</span> state
 
 <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Scheduling</span><span class="hljs-params">(state.PanoptesState)</span>:</span>
-    <span class="hljs-string">""" A mock Scheduling state. Inherits from common PanoptesState """</span>
+    <span class="hljs-string">""" 
+    A mock Scheduling state. Inherits from common PanoptesState 
+    """</span>
 
     <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">setup</span><span class="hljs-params">(self, *args, **kwargs)</span>:</span>
         <span class="hljs-string">"""
