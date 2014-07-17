@@ -96,14 +96,15 @@
         <span class="hljs-comment"># Perform any necessary setup</span>
         self.target = self.observatory.get_target()
 
-        <span class="hljs-comment"># Schedling can only go to slewing (see note about 'parking' above)</span>
+        <span class="hljs-comment"># Scheduling can only go to slewing (and 'parking')</span>
         self.outcomes=[<span class="hljs-string">'slewing'</span>]
 
     <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">run</span><span class="hljs-params">(self)</span>:</span>
         <span class="hljs-string">"""
-        Called once per state and is responsible for the state logic (the
-        task to be performed). Here some dummy logic code gets the coordinates
-        for the next target and assigns them to the observatory.
+        Called once per state and is responsible for the state 
+        logic (the task to be performed). Here some dummy 
+        logic code gets the coordinates for the next target and 
+        assigns them to the observatory.
         """</span>
         <span class="hljs-keyword">try</span>:
             <span class="hljs-comment"># Perform the state logic</span>
@@ -112,10 +113,8 @@
             <span class="hljs-comment"># Set the successful outcome based on state logic</span>
             self.outcome = <span class="hljs-string">'slewing'</span>
         <span class="hljs-keyword">except</span>:
-            <span class="hljs-comment"># If state logic fails, outcome will be the default 'parking'</span>
-            self.logger.warning(<span class="hljs-string">"Did not properly set target coordinates"</span>)</code></pre>
-
-
+            <span class="hljs-comment"># If state logic fails, outcome will is 'parking'</span>
+            self.logger.warning(<span class="hljs-string">"Scheduling failed"</span>)</code></pre>
 
 <h3 id="statetable">State Table</h3>
 
