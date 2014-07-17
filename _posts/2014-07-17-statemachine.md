@@ -1,6 +1,6 @@
 <h1 id="panoptes-smach-statemachine">PANOPTES Smach StateMachine</h1>
 
-<p><div class="toc">
+<p><div class="toc"><div class="toc">
 <ul>
 <li><a href="#panoptes-smach-statemachine">PANOPTES Smach StateMachine</a><ul>
 <li><a href="#overview">Overview</a></li>
@@ -22,6 +22,7 @@
 </li>
 </ul>
 </div>
+</div>
 </p>
 
 
@@ -30,13 +31,11 @@
 
 <p>This document describes how the PANOPTES state machine works, some example uses, as well as instructions for creating additional states or state machines.  The <code>panoptes.statemachine</code>  and <code>panoptes.state</code> classes are both taken directly from the fine work done by the folks over at <a href="http://ros.org">ROS</a> with the <a href="http://wiki.ros.org/smach">smach</a> module they have created. They have many great tutorials and examples. Many of the ideas in this article are presented in the original <a href="http://wiki.ros.org/smach/Documentation">documenation</a> for smach but here they are adapted specifically to PANOPTES.</p>
 
-<p><code>smach</code> defines itself as a “task-level architecture”<a href="#fn:smach" id="fnref:smach" title="See footnote" class="footnote">1</a> built upon hierarchical state machines. This means that each state is responsible for executing an arbitrary task and returning an outcome for that state. PANOPTES subclasses the default <code>smach.State</code> to provide a consistent base class for all other states within the project as well as to provide a common interface. </p>
+<p><code>smach</code> defines itself as a “task-level architecture” built upon hierarchical state machines. This means that each state is responsible for executing an arbitrary task and returning an outcome for that state. PANOPTES subclasses the default <code>smach.State</code> to provide a consistent base class for all other states within the project as well as to provide a common interface. </p>
 
 <blockquote>
   <p><strong>Note:</strong> Many features described in the official <a href="http://wiki.ros.org/smach/Documentation">smach documentation</a> are unused by PANOPTES and are hidden by the <code>PanoptesState</code> base class. If you are developing a state and having a hard time making it do something, make sure to check the original documentation and the <code>PanoptesState</code> implementation.</p>
 </blockquote>
-
-
 
 <h2 id="panoptes-state-machine">PANOPTES State Machine</h2>
 
@@ -180,5 +179,3 @@
 <blockquote>
   <p>Written by <a href="https://github.com/wtgee">wtgee</a>.</p>
 </blockquote>
-
-<div class="footnotes"><hr><ol><li id="fn:smach"><a href="http://wiki.ros.org/smach">http://wiki.ros.org/smach</a> <a href="#fnref:smach" title="Return to article" class="reversefootnote">↩</a></li></ol></div>
